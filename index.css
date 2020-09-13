@@ -35,6 +35,13 @@ img {
 
 header {
    margin: 75px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+header h1,h4{
+   text-align: center;
 }
 
 main {
