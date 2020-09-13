@@ -81,10 +81,23 @@ section {
    bottom: 120px;
 }
 
+#vid {
+   margin-right: 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#vid p {
+   font-style: italic;
+   margin-top: 10px;
+   font-weight: 300;
+   text-align: center;
+}
+
 iframe {
    border-radius: 3px;
-   min-width: 500px;
-   margin-right: 40px;
+   min-width: 500px; 
 }
 
 #earth img {
