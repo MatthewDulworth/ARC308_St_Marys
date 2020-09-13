@@ -81,6 +81,16 @@ section {
    bottom: 120px;
 }
 
+iframe {
+   border-radius: 3px;
+   min-width: 500px;
+   margin-right: 40px;
+}
+
+#earth img {
+   max-width: 700px;
+}
+
 #sources {
    display: none;
 }
