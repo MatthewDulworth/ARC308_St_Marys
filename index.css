@@ -1,8 +1,47 @@
 * {
    box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
 }
 
+h1, h2, h3, h4, h5{
+   font-weight: 600;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
 
 img {
-   width: 400px;
+   max-width: 400px;
+   margin: 20px;
+   margin-bottom: 0px;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 1200px;
+}
+
+section {
+   display: flex;
+   align-items: center;
+}
+
+.pic {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.pic p {
+   font-style: italic;
+   color: rgb(70, 62, 62);
+}
+
+#sources {
+   display: none;
 }
