@@ -91,6 +91,24 @@ iframe {
    max-width: 700px;
 }
 
+#album{
+   display: grid;
+   gap: 50px;
+   grid-template-columns: repeat(3, 300px);
+   grid-template-rows: repeat(3, 300px);
+}
+
+#album-title {
+   display: grid;
+   justify-content: center;
+}
+
+#album img {
+   max-width: 300px;
+   max-height: 300px;
+   justify-self: stretch;
+}
+
 #sources {
    display: none;
 }
