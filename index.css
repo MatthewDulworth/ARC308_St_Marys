@@ -60,7 +60,7 @@ section {
    font-style: italic;
    margin-top: 10px;
    font-weight: 300;
-   /* color: rgb(70, 62, 62); */
+   text-align: center;
 }
 
 #articles-container div {
@@ -110,5 +110,6 @@ iframe {
 }
 
 #sources {
-   display: none;
+   display: block;
+   align-self: flex-start;
 }
