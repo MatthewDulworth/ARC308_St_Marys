@@ -17,6 +17,13 @@ body {
 
 sup {
    font-style: normal !important;
+   cursor: pointer;
+   color: #0000EE;
+}
+
+.src {
+   cursor: pointer;
+   color: #0000EE;
 }
 
 img {
